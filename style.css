@@ -1,0 +1,31 @@
+body {
+  background-color: #1b7fbd;
+  font-family: "Indie Flower", cursive;
+}
+h1 {
+  color: #f6ef98;
+  font-size: 70px;
+  line-height: 70px;
+  margin: 0;
+  text-align: left;
+
+  h2 {
+    font-size:70px;
+    font-weight: 400;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+}
+li {
+  list-style: none;
+  font-size: 27px;
+  line-height: 30px;
+}
+.app {
+  border: 1 px solid gray;
+  padding: 20px 15px;
+  margin: 30px auto;
+  border-radius: 20px;
+  max-width: 100px;
