@@ -4,10 +4,8 @@ body {
 }
 h1 {
   color: #f6ef98;
-  font-size: 70px;
-  line-height: 70px;
-  margin: 0;
-  text-align: left;
+}
+  
 
   h2 {
     font-size:70px;
@@ -16,10 +14,11 @@ h1 {
   ul {
     margin: 0;
     padding: 0;
+    list-style: none;
   }
-}
+
 li {
-  list-style: none;
+  
   font-size: 27px;
   line-height: 30px;
 }
@@ -27,5 +26,5 @@ li {
   border: 1 px solid gray;
   padding: 20px 15px;
   margin: 30px auto;
-  border-radius: 20px;
+  border-radius: 20px 
   max-width: 100px;

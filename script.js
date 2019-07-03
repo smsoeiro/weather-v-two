@@ -1,6 +1,21 @@
 function showTemperature(response) {
   let temperature = document.querySelector("#temperature");
   temperature.innerText = Math.round(response.data.main.temp);
+  let place = document.querySelector("#place");
+  place.innerText = response.data.name;
+
+  let humidity = document.querySelector("#humidity");
+  humidity.innerText = response.data.main.humidity;
+
+  let wind = document.querySelector("#wind");
+  wind.innerText = response.data.wind.speed;
+
+  let precipitation = document.querySelector("#precipitation");
+  precipitation.innerText = "Something";
+
+  let description = document.querySelector("#description");
+  console.log(response.data);
+  description.innerText = response.data.wind[0].description;
 }
 
 let city = "Lisbon";
