@@ -1,24 +1,23 @@
 body {
   background-color: #1b7fbd;
   font-family: "Indie Flower", cursive;
+  width: 40%;
 }
 h1 {
   color: #f6ef98;
 }
-  
 
-  h2 {
-    font-size:70px;
-    font-weight: 400;
-  }
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
+h2 {
+  font-size: 70px;
+  font-weight: 400;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
 li {
-  
   font-size: 27px;
   line-height: 30px;
 }
@@ -26,5 +25,5 @@ li {
   border: 1 px solid gray;
   padding: 20px 15px;
   margin: 30px auto;
-  border-radius: 20px 
-  max-width: 100px;
+  border-radius: 20px;
+}

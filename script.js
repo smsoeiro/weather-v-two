@@ -10,12 +10,14 @@ function showTemperature(response) {
   let wind = document.querySelector("#wind");
   wind.innerText = response.data.wind.speed;
 
-  let precipitation = document.querySelector("#precipitation");
-  precipitation.innerText = "Something";
-
   let description = document.querySelector("#description");
-  console.log(response.data);
   description.innerText = response.data.wind[0].description;
+  
+let date= document.querySelector ("#date");
+date.innerText =Tuesday 10:00";
+
+console.log(response.data);
+
 }
 
 let city = "Lisbon";
